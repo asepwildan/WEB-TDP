@@ -1,0 +1,834 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Nova+Flat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+$large: 1076px;
+$medium: 768;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    // font-family: 'Lato', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+   
+  }
+
+
+.tshirt-container {
+        width: 85%;
+        margin: 100px auto;
+       
+            .judul-tshirt {
+               
+                width: 100%;
+                height: auto;
+               
+      
+                h2 {
+                    font-weight: normal;
+                    font-family: 'Lato', sans-serif;
+                    }
+        }
+
+        .katalog-container {
+            
+            display: flex;
+           
+            width:90%;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        
+        flex-wrap: wrap;
+       
+       .bungkus-display {
+           
+            width: 25%;
+            padding-bottom: 35px;
+
+            .hoodie-katalog{
+                width:90%;
+                height: 100%;
+                max-height: 375px;
+                position: relative;
+                font-family: 'Lato', sans-serif;
+                margin: 0 auto;
+                text-align: center;
+                padding-bottom: 10px;
+                background-color: #FBFBFB;
+                &:hover {
+                    box-shadow: 0 8px 6px -6px black;
+            background-color: #ffffff;
+                    cursor: pointer;
+                     }
+                     .form-hoodie{
+                      
+                        height:89%;
+                        max-height: 380px;
+                    }
+                    .wadah-img-hoodie {
+                        width: 100%;
+                        height:100%;
+                        
+                        overflow: hidden;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    p {
+                        padding-top: 10px;
+                    }
+                    span {
+                        
+                        font-weight: bold;
+                    }
+                    input {
+                       width: 110px;
+                       height: 30px;
+                       font-family: 'Lato', sans-serif;
+                       font-weight: bold;
+                        border: none;
+                        opacity: 30%;
+                        font-size: 15px;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        cursor: pointer;
+                        &:hover{
+                            opacity: 100%;
+                            
+                        }
+                       
+                    }
+            }
+
+         .katalog-display   {
+                width:90%;
+                height: 285px;
+                position: relative;  
+                font-family: 'Lato', sans-serif;
+                margin: 0 auto;
+                text-align: center;
+                padding-bottom: 10px;
+                background-color: #FBFBFB;
+                &:hover {
+                    box-shadow: 0 8px 6px -6px black;
+                    background-color: #ffffff;
+                    cursor: pointer;
+                     }
+               
+                    
+                form{
+                    height: 100%;
+                    &:hover input {
+                        opacity: 80%; 
+                    }
+                }
+                .wadah-img{
+                    width: 100%;
+                    height:222px;
+                    overflow: hidden;
+                    img{
+                        width: 100%;
+                    }
+                }
+                p {
+                    padding-top: 10px;
+                }
+                span {
+                    
+                    font-weight: bold;
+                }
+                input {
+                    width: 110px;
+                       height: 30px;
+                       font-family: 'Lato', sans-serif;
+                       font-weight: bold;
+                        border: none;
+                        opacity: 20%;
+                        font-size: 15px;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        cursor: pointer;
+                        &:hover{
+                            opacity: 80%;
+                            
+                        }
+                   
+                }
+               
+            }
+       }
+           
+           
+            // .katalog-display {
+            //     width: 23%;
+            //     // min-width: 23%;
+            //     // height: 300px;
+            //     text-align: center;
+            //     background-color: #FBFBFB;
+            //     font-family: 'Lato', sans-serif;
+            //     &:hover {
+            //         box-shadow: 0 8px 6px -6px black;
+            // background-color: #ffffff;
+            //         cursor: pointer;
+            //         padding-bottom: 10px;
+                    
+            //     }
+
+       }    
+}
+
+.detail-produk-container {
+   
+   
+    margin-top: 90px;
+    
+    .detail-produk {
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+        
+   
+     
+    //     height: 100vh;
+    //    max-height: 100%;
+  
+       
+       
+       
+        .detail-img {
+            width: 50%;
+            height: 550px;
+         
+          
+            img {
+                width: 67%;
+            }
+        }
+       
+
+        #detail-text {
+            width: 50%;
+            // height:100vh; 
+            height: 550px;
+          
+            overflow: scroll;
+            transition: all 0.3s;
+           &::-webkit-scrollbar {
+            display: none;
+        }
+            h3 {
+                font-family: 'Lato', sans-serif;
+                margin-top: 70px;
+                font-size: 27px;
+                text-transform: uppercase;
+                span {
+                    color: rgb(85, 80, 80);
+                    margin-right: 10px;
+                }
+            }
+
+            p {
+                margin: 10px 0;
+                font-family: 'Lato', sans-serif;
+               
+                span {
+                    color: rgb(85, 80, 80);
+                    margin-right: 5px;
+                }
+ 
+            }
+
+            .d-harga {
+                font-size: 25px;
+                margin: 20px 0;
+            }
+
+            .detail-container-sc {
+              
+                display: flex;
+                justify-content: space-between;
+                border-top: 1px solid rgb(121, 119, 119);          
+                margin-top: 60px;
+               
+                .detail-sc {
+                  
+                    display: flex;
+                    gap: 10px;
+                    width: 50%;
+                   
+
+                    .detail-size {
+                       
+                        p span {
+                            display: block;
+                            text-align: center;
+                            
+                        }
+
+                        p .waduh {
+                            border: 1px solid black;
+                            padding: 10px;
+                            color: black;
+                        }
+                    }
+                }
+
+                .wish-btn {
+                    
+                    padding-top: 30px;
+                    width: 50%;
+                    
+                    
+                    
+                    button {
+                        border: 1px solid black;
+                        outline: none;
+                        background-color: white;
+                        padding: 11px;
+                        text-decoration: none;
+                        color: black;
+                        font-family: 'Lato', sans-serif;
+                        float: right;
+                        font-size: 16px;
+
+                        &:hover {
+                            background-color: black;
+                            color: white;
+                            cursor: pointer;
+                        }
+
+                        &:hover .fa-heart {
+                            color:red;
+                        }
+                      
+                    }
+                 
+                }
+            }
+
+            .add-chart-container {
+               
+                width: 100%;
+                height: 40px;
+                margin-top: 40px;
+                
+                a {
+                    width: 100%;
+                    height: 100%;
+                    button {
+                        width: 100%;
+                        padding: 10px 0;
+                        background: transparent;
+                        color: rgb(41, 41, 41);
+                        outline: none;
+                        border: 1px solid black;
+                        cursor: pointer;
+                        &:hover{
+                            background: black;
+                            color: rgba(255, 255, 255, 1);
+                        }
+                    }
+                    
+                }
+             
+
+            }
+            .text-info {
+                margin-top: 30px;
+              
+                width: 100%;
+                // height: 450px;
+                
+   
+                #info-toggle  {
+                    width: 100%;
+                    height:44px;
+                    transition: all 0.3s;
+                    display: flex;
+                   overflow: hidden;
+                   border-top: 1px solid black;
+                   border-bottom: 1px solid black;
+                    flex-wrap: wrap;
+                    
+                   .info-anchor {                
+                       width: 50%;
+                       height:44px;
+                   }
+                   .info-anchor-icon {
+                       font-weight: bold;
+                       position: relative;
+                      width: 50%;
+                      height:44px;
+                      p {
+                        transition: all 0.3s;
+                        float: right;
+                        
+                      }
+
+                       input {
+                           position: absolute;
+                           width: 20px;
+                           height: 20px;
+                           top: 10px;
+                           right: -5px;
+                           opacity: 0.0;
+                       }
+                   }
+                   
+                   .text-info-detail {    
+                           
+                        p {
+                            font-size: 14px;
+                            font-family: 'Exo 2', sans-serif;
+                            
+                       }
+                   }
+                }
+            }
+            
+        }
+    }
+}
+
+.nav-admin-container {
+    width: 100%;
+    background-color:  rgb(244,247,249);
+    border-bottom: 1px solid black;
+
+    .nav-ac-dalam {
+        padding: 10px 0;
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        
+        justify-content: space-between;
+        align-items: center;
+
+        .admin-j-n h3 {
+            font-size: 25px;
+            font-weight: normal;
+            font-family: 'Staatliches', cursive;
+        }
+        .admin-name{
+            
+            display: flex;
+            gap: 5px;
+            align-items: center;
+            font-family: 'Exo 2', sans-serif;
+
+            p {
+                
+                font-weight: bold;
+            }
+          
+            #opsi-dropdown {
+                // padding: 5px 15px;
+                width: 120px;
+                height: 0px;
+                position: absolute;
+               top: 52px;
+               background-color:  rgb(244,247,249);
+               transition: 0.4s ;
+               overflow: hidden;
+               z-index: 9;
+               border-bottom: 1px solid black;
+               border-left: 1px solid black;
+               border-right: 1px solid black;
+               
+
+               ul {
+                   list-style: none;
+                   text-align: right;
+                   li {
+                       padding: 5px 15px 5px 0px;
+                   }
+               }
+            }
+            input {
+                position: absolute;
+                right: 34px;
+                height: 20px;
+                width: 20px;
+                opacity: 0.0;
+                cursor: pointer;
+            }
+        }
+
+      
+    }
+}
+
+.opsi-action {
+    
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+    justify-content: center;
+
+    .opsi-tambah, .opsi-edit, .opsi-hapus {
+        position: relative;
+        width: 200px;
+       padding: 20px 0;
+      
+        border: 1px solid black;
+        text-align: center;
+        font-family: 'Exo 2', sans-serif;
+        cursor: pointer;
+       
+        
+        
+        button {
+            width: 200px;
+            height: 40px;
+            background: none;
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            cursor: pointer;
+            border: none;
+            font-family: 'Exo 2', sans-serif;
+            font-size: 20px;
+            border-radius: 0;
+            &:hover {
+                background-color: black;
+                color: white;
+            }
+        }
+    }
+}
+
+.stok-produk-container {
+    width: 80%;
+    margin: 0 auto;
+     background-color:  rgb(244,247,249);
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding: 20px 10px;
+    border: 1px solid black;
+    
+  
+    h3 {
+        padding-bottom: 20px;
+       color: black;
+    }
+    .info-stok-container {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        
+        gap: 10px;
+
+        .info-stok-tshirt, .info-stok-hoodie, .info-stok-hat {
+            width: 30%;
+            font-family: 'Exo 2', sans-serif;
+           color: rgb(33,206,153);
+            text-align: center;
+           background-color: white;
+           border: 1px solid black;
+
+            h3 {
+                padding: 5px 0;
+            }
+            p {
+                font-size: 36px;
+                padding: 5px 0 20px 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1125px){
+    .tshirt-container .katalog-container .bungkus-display .katalog-display {
+        height: 250px;
+    }
+.tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img {
+        height: 190px;
+    }
+}
+
+@media screen and (max-width: $large) {
+    .tshirt-container .katalog-container {
+                    width: 100%;
+                 }
+     .detail-produk-container .detail-produk #detail-text h3 {
+                    margin-top: 0px;
+                 }
+  
+    }
+
+@media screen and (max-width: 1024px) { 
+   
+
+    .tshirt-container .katalog-container .bungkus-display {
+        width: 33.3%;
+      }
+
+      .detail-produk-container .detail-produk {
+         
+          display: block;
+      }
+
+      .detail-produk-container .detail-produk #detail-text .detail-container-sc {
+        margin-top: 20px;
+    }
+
+    .detail-produk-container .detail-produk .detail-img {
+        width: 100%;
+        text-align: center;
+        height: auto;
+    }
+    .detail-produk-container .detail-produk .detail-img img {
+        width: 55%;
+
+    }
+
+    .detail-produk-container .detail-produk #detail-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .detail-produk-container .detail-produk #detail-text h3 {
+        margin-top: 20px;
+    }
+    .detail-produk-container .detail-produk #detail-text .add-chart-container {
+        margin-top: 20px;
+    }
+    .detail-produk-container .detail-produk #detail-text .text-info #info-toggle .info-anchor {
+        text-align: left;
+    }
+    .detail-produk-container .detail-produk #detail-text .text-info #info-toggle .text-info-detail p {
+        text-align: justify;
+    }
+    .tshirt-container .katalog-container .bungkus-display .katalog-display {
+        height: 310px;
+    }
+    .tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img {
+        height: 240px;
+    }
+
+    .tshirt-container .katalog-container .bungkus-display .katalog-display {
+        height: 300px;
+      }
+      .tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img {
+        height: 240px;
+      }
+
+  
+
+    
+}
+
+@media screen and (max-width: 967px) {
+    .tshirt-container{
+        width: 90%;
+    }
+    .tshirt-container .katalog-container .bungkus-display{
+        width: 250px;
+    }
+    .tshirt-container .katalog-container .bungkus-display .katalog-display {
+        height: 270px;
+      }
+      .tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img {
+        height: 215px;
+      }
+}
+
+@media screen and (max-width: 850px) {
+    .tshirt-container .katalog-container .bungkus-display{
+        width: 240px;
+    }
+}
+
+@media screen and (max-width: 819px) {
+    .tshirt-container .katalog-container .bungkus-display{
+        width: 230px;
+    }
+}
+
+@media screen and (max-width: 787px) { 
+    .tshirt-container .katalog-container .bungkus-display {
+        width: 45%;
+      }
+      .tshirt-container .katalog-container .bungkus-display .katalog-display {
+        height: 310px;
+      }
+      .tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img {
+        height: 250px;
+      }
+
+}
+
+
+@media screen and (max-width: 768px) { 
+   
+    
+    .tshirt-container .katalog-container .bungkus-display {
+        width: 50%;
+      }
+
+      .tshirt-container .katalog-container .bungkus-display .katalog-display p {
+        font-size: 15px;
+      }
+
+      .tshirt-container .katalog-container .bungkus-display .hoodie-katalog {
+          height: 450px;
+      }
+      .tshirt-container .katalog-container .bungkus-display .hoodie-katalog .wadah-img-hoodie {
+          height: 90%;
+      }
+      .tshirt-container .katalog-container .bungkus-display .katalog-display {
+        height: 310px;
+      }
+      .tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img {
+        height: 250px;
+      }
+
+}
+
+@media screen and (max-width: 600px) { 
+   
+    .tshirt-container {
+        width: 95%;
+       
+    }
+
+    .detail-produk-container .detail-produk .detail-img img {
+        width: 80%;
+    }
+
+    .detail-produk-container .detail-produk #detail-text h3 {
+        font-size: 16px;
+    }
+    .detail-produk-container .detail-produk #detail-text .d-harga {
+        font-size: 22px;
+    }
+    .detail-produk-container .detail-produk #detail-text .detail-container-sc {
+       
+        flex-wrap: wrap;
+    }
+    .detail-produk-container .detail-produk #detail-text .detail-container-sc .detail-sc {
+        margin: 0 auto;
+       
+        justify-content: center;
+    }
+    .detail-produk-container .detail-produk #detail-text .detail-container-sc .wish-btn {
+        width: 100%;
+        
+        padding-top: 15px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    .detail-produk-container .detail-produk #detail-text .detail-container-sc .wish-btn button {
+        float: none;
+    }
+    .detail-produk-container .detail-produk #detail-text .text-info #info-toggle .text-info-detail p {
+        font-size: 14px;
+      }
+
+      .tshirt-container .katalog-container .bungkus-display .katalog-display {
+        height: 310px;
+      }
+      .tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img {
+        height: 250px;
+      }
+}
+
+@media screen and (max-width: 500px) {
+    .tshirt-container .katalog-container .bungkus-display .hoodie-katalog{
+        height:auto;
+        position: relative;
+    }
+    .tshirt-container .katalog-container .bungkus-display .hoodie-katalog input {
+        position: absolute;
+        top: 50%;
+        // right: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .tshirt-container .katalog-container .bungkus-display .katalog-display {
+        height: 200px;
+      }
+      .tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img {
+        height: 145px;
+      }
+}
+
+@media screen and (max-width: 414px) {
+    .tshirt-container .katalog-container .bungkus-display .katalog-display {
+        height: 217px;
+      }
+      .tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img {
+        height: 168px;
+      }
+      .tshirt-container .katalog-container .bungkus-display .katalog-display p {
+          padding-top: 5px;
+      }
+}
+
+@media screen and (max-width: 411px) {
+    .tshirt-container .katalog-container .bungkus-display .katalog-display {
+        height: 209px;
+      }
+      .tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img {
+        height: 160px;
+      }
+      .tshirt-container .katalog-container .bungkus-display .katalog-display p {
+          padding-top: 5px;
+      }
+}
+
+@media screen and (max-width: 375px){
+    .tshirt-container .katalog-container .bungkus-display .katalog-display {
+        height: 200px;
+      }
+      .tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img {
+        height: 150px;
+      }
+      .tshirt-container .katalog-container .bungkus-display .katalog-display p {
+          padding-top: 5px;
+      }
+}
+
+@media screen and (max-width: 360px) {
+    .tshirt-container .katalog-container .bungkus-display .katalog-display {
+        height: 195px;
+      }
+      .tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img {
+        height: 145px;
+      }
+      .tshirt-container .katalog-container .bungkus-display .katalog-display p {
+          padding-top: 5px;
+      }
+}
+
+@media screen and (max-width: 320px) {
+    .tshirt-container .katalog-container .bungkus-display .katalog-display {
+        height: 180px;
+      }
+      .tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img {
+        height: 130px;
+      }
+      .tshirt-container .katalog-container .bungkus-display .katalog-display p {
+          padding-top: 5px;
+      }
+}

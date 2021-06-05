@@ -1,0 +1,784 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&family=Nova+Flat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.tshirt-container {
+  width: 85%;
+  margin: 100px auto;
+}
+
+.tshirt-container .judul-tshirt {
+  width: 100%;
+  height: auto;
+}
+
+.tshirt-container .judul-tshirt h2 {
+  font-weight: normal;
+  font-family: 'Lato', sans-serif;
+}
+
+.tshirt-container .katalog-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.tshirt-container .katalog-container .bungkus-display {
+  width: 25%;
+  padding-bottom: 35px;
+}
+
+.tshirt-container .katalog-container .bungkus-display .hoodie-katalog {
+  width: 90%;
+  height: 100%;
+  max-height: 375px;
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 10px;
+  background-color: #FBFBFB;
+}
+
+.tshirt-container .katalog-container .bungkus-display .hoodie-katalog:hover {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.tshirt-container .katalog-container .bungkus-display .hoodie-katalog .form-hoodie {
+  height: 89%;
+  max-height: 380px;
+}
+
+.tshirt-container .katalog-container .bungkus-display .hoodie-katalog .wadah-img-hoodie {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.tshirt-container .katalog-container .bungkus-display .hoodie-katalog .wadah-img-hoodie img {
+  width: 100%;
+}
+
+.tshirt-container .katalog-container .bungkus-display .hoodie-katalog p {
+  padding-top: 10px;
+}
+
+.tshirt-container .katalog-container .bungkus-display .hoodie-katalog span {
+  font-weight: bold;
+}
+
+.tshirt-container .katalog-container .bungkus-display .hoodie-katalog input {
+  width: 110px;
+  height: 30px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  border: none;
+  opacity: 30%;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.tshirt-container .katalog-container .bungkus-display .hoodie-katalog input:hover {
+  opacity: 100%;
+}
+
+.tshirt-container .katalog-container .bungkus-display .katalog-display {
+  width: 90%;
+  height: 285px;
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 10px;
+  background-color: #FBFBFB;
+}
+
+.tshirt-container .katalog-container .bungkus-display .katalog-display:hover {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.tshirt-container .katalog-container .bungkus-display .katalog-display form {
+  height: 100%;
+}
+
+.tshirt-container .katalog-container .bungkus-display .katalog-display form:hover input {
+  opacity: 80%;
+}
+
+.tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img {
+  width: 100%;
+  height: 222px;
+  overflow: hidden;
+}
+
+.tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img img {
+  width: 100%;
+}
+
+.tshirt-container .katalog-container .bungkus-display .katalog-display p {
+  padding-top: 10px;
+}
+
+.tshirt-container .katalog-container .bungkus-display .katalog-display span {
+  font-weight: bold;
+}
+
+.tshirt-container .katalog-container .bungkus-display .katalog-display input {
+  width: 110px;
+  height: 30px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  border: none;
+  opacity: 20%;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.tshirt-container .katalog-container .bungkus-display .katalog-display input:hover {
+  opacity: 80%;
+}
+
+.detail-produk-container {
+  margin-top: 90px;
+}
+
+.detail-produk-container .detail-produk {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+
+.detail-produk-container .detail-produk .detail-img {
+  width: 50%;
+  height: 550px;
+}
+
+.detail-produk-container .detail-produk .detail-img img {
+  width: 67%;
+}
+
+.detail-produk-container .detail-produk #detail-text {
+  width: 50%;
+  height: 550px;
+  overflow: scroll;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.detail-produk-container .detail-produk #detail-text::-webkit-scrollbar {
+  display: none;
+}
+
+.detail-produk-container .detail-produk #detail-text h3 {
+  font-family: 'Lato', sans-serif;
+  margin-top: 70px;
+  font-size: 27px;
+  text-transform: uppercase;
+}
+
+.detail-produk-container .detail-produk #detail-text h3 span {
+  color: #555050;
+  margin-right: 10px;
+}
+
+.detail-produk-container .detail-produk #detail-text p {
+  margin: 10px 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.detail-produk-container .detail-produk #detail-text p span {
+  color: #555050;
+  margin-right: 5px;
+}
+
+.detail-produk-container .detail-produk #detail-text .d-harga {
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.detail-produk-container .detail-produk #detail-text .detail-container-sc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 1px solid #797777;
+  margin-top: 60px;
+}
+
+.detail-produk-container .detail-produk #detail-text .detail-container-sc .detail-sc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  width: 50%;
+}
+
+.detail-produk-container .detail-produk #detail-text .detail-container-sc .detail-sc .detail-size p span {
+  display: block;
+  text-align: center;
+}
+
+.detail-produk-container .detail-produk #detail-text .detail-container-sc .detail-sc .detail-size p .waduh {
+  border: 1px solid black;
+  padding: 10px;
+  color: black;
+}
+
+.detail-produk-container .detail-produk #detail-text .detail-container-sc .wish-btn {
+  padding-top: 30px;
+  width: 50%;
+}
+
+.detail-produk-container .detail-produk #detail-text .detail-container-sc .wish-btn button {
+  border: 1px solid black;
+  outline: none;
+  background-color: white;
+  padding: 11px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  float: right;
+  font-size: 16px;
+}
+
+.detail-produk-container .detail-produk #detail-text .detail-container-sc .wish-btn button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.detail-produk-container .detail-produk #detail-text .detail-container-sc .wish-btn button:hover .fa-heart {
+  color: red;
+}
+
+.detail-produk-container .detail-produk #detail-text .add-chart-container {
+  width: 100%;
+  height: 40px;
+  margin-top: 40px;
+}
+
+.detail-produk-container .detail-produk #detail-text .add-chart-container a {
+  width: 100%;
+  height: 100%;
+}
+
+.detail-produk-container .detail-produk #detail-text .add-chart-container a button {
+  width: 100%;
+  padding: 10px 0;
+  background: transparent;
+  color: #292929;
+  outline: none;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.detail-produk-container .detail-produk #detail-text .add-chart-container a button:hover {
+  background: black;
+  color: white;
+}
+
+.detail-produk-container .detail-produk #detail-text .text-info {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.detail-produk-container .detail-produk #detail-text .text-info #info-toggle {
+  width: 100%;
+  height: 44px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.detail-produk-container .detail-produk #detail-text .text-info #info-toggle .info-anchor {
+  width: 50%;
+  height: 44px;
+}
+
+.detail-produk-container .detail-produk #detail-text .text-info #info-toggle .info-anchor-icon {
+  font-weight: bold;
+  position: relative;
+  width: 50%;
+  height: 44px;
+}
+
+.detail-produk-container .detail-produk #detail-text .text-info #info-toggle .info-anchor-icon p {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  float: right;
+}
+
+.detail-produk-container .detail-produk #detail-text .text-info #info-toggle .info-anchor-icon input {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  right: -5px;
+  opacity: 0.0;
+}
+
+.detail-produk-container .detail-produk #detail-text .text-info #info-toggle .text-info-detail p {
+  font-size: 14px;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.nav-admin-container {
+  width: 100%;
+  background-color: #f4f7f9;
+  border-bottom: 1px solid black;
+}
+
+.nav-admin-container .nav-ac-dalam {
+  padding: 10px 0;
+  width: 95%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-admin-container .nav-ac-dalam .admin-j-n h3 {
+  font-size: 25px;
+  font-weight: normal;
+  font-family: 'Staatliches', cursive;
+}
+
+.nav-admin-container .nav-ac-dalam .admin-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.nav-admin-container .nav-ac-dalam .admin-name p {
+  font-weight: bold;
+}
+
+.nav-admin-container .nav-ac-dalam .admin-name #opsi-dropdown {
+  width: 120px;
+  height: 0px;
+  position: absolute;
+  top: 52px;
+  background-color: #f4f7f9;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  overflow: hidden;
+  z-index: 9;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.nav-admin-container .nav-ac-dalam .admin-name #opsi-dropdown ul {
+  list-style: none;
+  text-align: right;
+}
+
+.nav-admin-container .nav-ac-dalam .admin-name #opsi-dropdown ul li {
+  padding: 5px 15px 5px 0px;
+}
+
+.nav-admin-container .nav-ac-dalam .admin-name input {
+  position: absolute;
+  right: 34px;
+  height: 20px;
+  width: 20px;
+  opacity: 0.0;
+  cursor: pointer;
+}
+
+.opsi-action {
+  width: 80%;
+  margin: 40px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  padding: 10px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.opsi-action .opsi-tambah, .opsi-action .opsi-edit, .opsi-action .opsi-hapus {
+  position: relative;
+  width: 200px;
+  padding: 20px 0;
+  border: 1px solid black;
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+  cursor: pointer;
+}
+
+.opsi-action .opsi-tambah button, .opsi-action .opsi-edit button, .opsi-action .opsi-hapus button {
+  width: 200px;
+  height: 40px;
+  background: none;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  cursor: pointer;
+  border: none;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 20px;
+  border-radius: 0;
+}
+
+.opsi-action .opsi-tambah button:hover, .opsi-action .opsi-edit button:hover, .opsi-action .opsi-hapus button:hover {
+  background-color: black;
+  color: white;
+}
+
+.stok-produk-container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f4f7f9;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  padding: 20px 10px;
+  border: 1px solid black;
+}
+
+.stok-produk-container h3 {
+  padding-bottom: 20px;
+  color: black;
+}
+
+.stok-produk-container .info-stok-container {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+
+.stok-produk-container .info-stok-container .info-stok-tshirt, .stok-produk-container .info-stok-container .info-stok-hoodie, .stok-produk-container .info-stok-container .info-stok-hat {
+  width: 30%;
+  font-family: 'Exo 2', sans-serif;
+  color: #21ce99;
+  text-align: center;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.stok-produk-container .info-stok-container .info-stok-tshirt h3, .stok-produk-container .info-stok-container .info-stok-hoodie h3, .stok-produk-container .info-stok-container .info-stok-hat h3 {
+  padding: 5px 0;
+}
+
+.stok-produk-container .info-stok-container .info-stok-tshirt p, .stok-produk-container .info-stok-container .info-stok-hoodie p, .stok-produk-container .info-stok-container .info-stok-hat p {
+  font-size: 36px;
+  padding: 5px 0 20px 0;
+}
+
+@media screen and (max-width: 1125px) {
+  .tshirt-container .katalog-container .bungkus-display .katalog-display {
+    height: 250px;
+  }
+  .tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img {
+    height: 190px;
+  }
+}
+
+@media screen and (max-width: 1076px) {
+  .tshirt-container .katalog-container {
+    width: 100%;
+  }
+  .detail-produk-container .detail-produk #detail-text h3 {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .tshirt-container .katalog-container .bungkus-display {
+    width: 33.3%;
+  }
+  .detail-produk-container .detail-produk {
+    display: block;
+  }
+  .detail-produk-container .detail-produk #detail-text .detail-container-sc {
+    margin-top: 20px;
+  }
+  .detail-produk-container .detail-produk .detail-img {
+    width: 100%;
+    text-align: center;
+    height: auto;
+  }
+  .detail-produk-container .detail-produk .detail-img img {
+    width: 55%;
+  }
+  .detail-produk-container .detail-produk #detail-text {
+    width: 100%;
+    text-align: center;
+  }
+  .detail-produk-container .detail-produk #detail-text h3 {
+    margin-top: 20px;
+  }
+  .detail-produk-container .detail-produk #detail-text .add-chart-container {
+    margin-top: 20px;
+  }
+  .detail-produk-container .detail-produk #detail-text .text-info #info-toggle .info-anchor {
+    text-align: left;
+  }
+  .detail-produk-container .detail-produk #detail-text .text-info #info-toggle .text-info-detail p {
+    text-align: justify;
+  }
+  .tshirt-container .katalog-container .bungkus-display .katalog-display {
+    height: 310px;
+  }
+  .tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img {
+    height: 240px;
+  }
+  .tshirt-container .katalog-container .bungkus-display .katalog-display {
+    height: 300px;
+  }
+  .tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img {
+    height: 240px;
+  }
+}
+
+@media screen and (max-width: 967px) {
+  .tshirt-container {
+    width: 90%;
+  }
+  .tshirt-container .katalog-container .bungkus-display {
+    width: 250px;
+  }
+  .tshirt-container .katalog-container .bungkus-display .katalog-display {
+    height: 270px;
+  }
+  .tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img {
+    height: 215px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .tshirt-container .katalog-container .bungkus-display {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 819px) {
+  .tshirt-container .katalog-container .bungkus-display {
+    width: 230px;
+  }
+}
+
+@media screen and (max-width: 787px) {
+  .tshirt-container .katalog-container .bungkus-display {
+    width: 45%;
+  }
+  .tshirt-container .katalog-container .bungkus-display .katalog-display {
+    height: 310px;
+  }
+  .tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tshirt-container .katalog-container .bungkus-display {
+    width: 50%;
+  }
+  .tshirt-container .katalog-container .bungkus-display .katalog-display p {
+    font-size: 15px;
+  }
+  .tshirt-container .katalog-container .bungkus-display .hoodie-katalog {
+    height: 450px;
+  }
+  .tshirt-container .katalog-container .bungkus-display .hoodie-katalog .wadah-img-hoodie {
+    height: 90%;
+  }
+  .tshirt-container .katalog-container .bungkus-display .katalog-display {
+    height: 310px;
+  }
+  .tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .tshirt-container {
+    width: 95%;
+  }
+  .detail-produk-container .detail-produk .detail-img img {
+    width: 80%;
+  }
+  .detail-produk-container .detail-produk #detail-text h3 {
+    font-size: 16px;
+  }
+  .detail-produk-container .detail-produk #detail-text .d-harga {
+    font-size: 22px;
+  }
+  .detail-produk-container .detail-produk #detail-text .detail-container-sc {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .detail-produk-container .detail-produk #detail-text .detail-container-sc .detail-sc {
+    margin: 0 auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .detail-produk-container .detail-produk #detail-text .detail-container-sc .wish-btn {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .detail-produk-container .detail-produk #detail-text .detail-container-sc .wish-btn button {
+    float: none;
+  }
+  .detail-produk-container .detail-produk #detail-text .text-info #info-toggle .text-info-detail p {
+    font-size: 14px;
+  }
+  .tshirt-container .katalog-container .bungkus-display .katalog-display {
+    height: 310px;
+  }
+  .tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .tshirt-container .katalog-container .bungkus-display .hoodie-katalog {
+    height: auto;
+    position: relative;
+  }
+  .tshirt-container .katalog-container .bungkus-display .hoodie-katalog input {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .tshirt-container .katalog-container .bungkus-display .katalog-display {
+    height: 200px;
+  }
+  .tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img {
+    height: 145px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .tshirt-container .katalog-container .bungkus-display .katalog-display {
+    height: 217px;
+  }
+  .tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img {
+    height: 168px;
+  }
+  .tshirt-container .katalog-container .bungkus-display .katalog-display p {
+    padding-top: 5px;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  .tshirt-container .katalog-container .bungkus-display .katalog-display {
+    height: 209px;
+  }
+  .tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img {
+    height: 160px;
+  }
+  .tshirt-container .katalog-container .bungkus-display .katalog-display p {
+    padding-top: 5px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .tshirt-container .katalog-container .bungkus-display .katalog-display {
+    height: 200px;
+  }
+  .tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img {
+    height: 150px;
+  }
+  .tshirt-container .katalog-container .bungkus-display .katalog-display p {
+    padding-top: 5px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .tshirt-container .katalog-container .bungkus-display .katalog-display {
+    height: 195px;
+  }
+  .tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img {
+    height: 145px;
+  }
+  .tshirt-container .katalog-container .bungkus-display .katalog-display p {
+    padding-top: 5px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .tshirt-container .katalog-container .bungkus-display .katalog-display {
+    height: 180px;
+  }
+  .tshirt-container .katalog-container .bungkus-display .katalog-display .wadah-img {
+    height: 130px;
+  }
+  .tshirt-container .katalog-container .bungkus-display .katalog-display p {
+    padding-top: 5px;
+  }
+}
+/*# sourceMappingURL=style-katalog.css.map */
